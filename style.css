@@ -1,4 +1,13 @@
-	h1 {
+    head {
+        background-color: pink;
+	    color: black;
+        font-family: 'Benton-Sans', sans-serif;
+        Font-weight: normal;
+        font-size: 64;
+	    text-align: left;
+    }
+    
+    h1 {
         background-color: pink;
 	    color: black;
         font-family: 'Benton-Sans', sans-serif;
