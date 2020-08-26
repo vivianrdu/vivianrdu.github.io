@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html>
-    <link rel="stylesheet" type="text/css" href="contact.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <head>
-        <h1>
-        <a   href="index.html"  >Home</a>
-        <a   href="about.html" >About</a>
-        <a   href="contact.html" >Contact</a>
-        <div style="margin-right: 50px;">   
-        <a class= "icon" href="https://www.linkedin.com/in/vivian-du-2000/">
-            <img src="linked.png" class="icon">
-        </a>
-        <a class= "icon" href="https://www.instagram.com/rosenbleu_/">
-            <img src="insta.png" class="icon">
-        </a>
-        <a class= "icon" href="https://github.com/vivianrdu/">
-            <img src="github.png" class="icon">
-        </a>
-        </div> 
-        </h1>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
+    <header> 
+        <h1 class="first"><a href="index.html">Home</a></h1><h1>
+        <a href="about.html" >About</a></h1><h1>
+        <a href="contact.html" >Contact</a></h1>
+        <div class="spacer"></div>
+            <a class= "icon" href="https://www.linkedin.com/in/vivian-du-2000/">
+                <img src="linked.png" class="icon">
+            </a>
+            <a class= "icon" href="https://www.instagram.com/rosenbleu_/">
+                <img src="insta.png" class="icon">
+            </a>
+            <a class= "icon" href="https://github.com/vivianrdu/">
+                <img src="github.png" class="icon">
+            </a>
+        
+    </header>
     
-    <body style="background-color:pink;">
-        <p>
-            Contact me here and I will try to get back to you in 3-5 days.
-        </p>
+     <body>
         <div class="container">
+            <p>
+                Contact me here and I will try to get back to you in 3-5 days.
+            </p>
+        </div>
+        <div class="forms">
             <form action="action_page.php">
 
             <label for="fname">First Name</label><br>
@@ -38,12 +41,7 @@
             <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea><br>
 
             <input type="submit" value="Submit">
-
           </form>
-      </div>
-        
-    </body>
-    
-        
-
+        </div>   
+    </body>      
 </html>
