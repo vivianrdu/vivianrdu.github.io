@@ -1,0 +1,59 @@
+h1 {
+	    color: black;
+        font-family: 'Benton-Sans', sans-serif;
+        font-weight: normal;
+        font-size: 32px;
+	    text-align: left;
+        margin-top: 50px;
+    }
+    
+h2 {
+	    color: black;
+        font-family: 'Benton-Sans', sans-serif;
+        font-weight: normal;
+        font-size: 32px;
+	    text-align: left;
+        margin-top: 50px;
+        margin-left: 50px;
+	}
+
+a {
+  color: black;
+  margin-left: 50px;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: dimgrey
+  text-decoration: none;
+}
+
+a:hover {
+  color: hotpink;
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+p {
+  color: black;
+    font-family: 'Benton-Sans', sans-serif;
+    font-weight: normal;
+    font-size: 32px;
+    text-align: left;
+    margin-left: 50px;
+    
+}
+
+img.resize {
+    height: auto; 
+    width: auto; 
+    max-width: 10px; 
+    max-height: 10px;
+}
