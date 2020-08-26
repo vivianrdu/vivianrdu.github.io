@@ -6,11 +6,11 @@
 body{
     width: 100vw;
     height: 100vh;
-    font-family: //------insert font
+    
 }
 
 .container {
-    padding: 6vh 6vw//INsert padding to your liking, first number is vertical second is horizontal;    
+    padding: 6vh 6vw;    
     display: flex;
     align-items: flex-start;
     flex-flow: row wrap;
@@ -70,4 +70,12 @@ p {
     margin-right: 50px;
     margin-top: 50px;
     
+}
+
+img.icon {
+  height: 2em; 
+  width: 2em;
+  margin: 10px;
+  padding 12px 6px 0;
+  float: right
 }
