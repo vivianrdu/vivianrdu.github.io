@@ -1,3 +1,22 @@
+* {
+  margin: 0
+  box-sizing: border-box; 
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: //------insert font
+}
+
+.container {
+    padding: 6vh 6vw//INsert padding to your liking, first number is vertical second is horizontal;    
+    display: flex;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
 h1 {
 	    color: black;
         font-family: 'Benton-Sans', sans-serif;
@@ -48,12 +67,7 @@ p {
     font-size: 32px;
     text-align: left;
     margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
     
-}
-
-img.resize {
-    height: auto; 
-    width: auto; 
-    max-width: 10px; 
-    max-height: 10px;
 }

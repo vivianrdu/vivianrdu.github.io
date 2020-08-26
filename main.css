@@ -1,3 +1,22 @@
+* {
+  margin: 0
+  box-sizing: border-box; 
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: //------insert font
+}
+
+.container {
+    padding: 6vh 6vw//INsert padding to your liking, first number is vertical second is horizontal;    
+    display: flex;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
 h1 {
 	    color: black;
         font-family: 'Benton-Sans', sans-serif;
@@ -17,18 +36,13 @@ h2 {
         margin-left: 50px;
 	}
 
-h3 {
-	    color: black;
-        font-family: 'Benton-Sans', sans-serif;
-        font-weight: normal;
-        font-size: 32px;
-	    text-align: right;
-        margin-top: 50px;
-    }
-
 a {
   color: black;
   margin-left: 50px;
+}
+
+a.icon {
+  margin: 0 5px;
 }
 
 a:link {
@@ -57,4 +71,12 @@ p {
     font-size: 56px;
     text-align: left;
     margin-left: 50px;
+}
+
+img.icon {
+  height: 2em; 
+  width: 2em;
+  margin: 10px;
+  padding 12px 6px 0;
+  float: right
 }
