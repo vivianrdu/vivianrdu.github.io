@@ -6,7 +6,6 @@
 }
 
 
-/* Moved all bg style, font stuff here*/
 body{
     width: 100vw;
     height: 100vh;
@@ -16,7 +15,6 @@ body{
     background-color:pink;
 }
 
-/*this is a flexbox container. yeah im flexing on you /s */
 .container {
     width: 100vw;
     padding: 50px;    
@@ -24,13 +22,14 @@ body{
     align-items: flex-start;
     flex-flow: row wrap;
     justify-content: flex-start;
+    position:relative
 }
 
 h1 {
     font-size: 32px;   
 }
     
-h2 { /*not used?*/
+h2 { 
        
     font-size: 32px;
     margin-top: 50px;
@@ -42,7 +41,7 @@ a {
     color: black;
 }
 
-a:visited { /*don't need text-decoration: none everywhere bc stuff inherits*/
+a:visited { 
     color: dimgrey;
 }
 
@@ -85,6 +84,16 @@ header img.icon{
     flex:0;
 }
 
+img.preview{
+    height: 20em; 
+    width: 27em;
+    margin: 0px;
+    flex:0;
+    margin-right: 6px
+}
+
+
+
 input[type=text], select, textarea {
   font-family: "Courier New";  width: 50%; 
   padding: 12px; 
@@ -117,4 +126,17 @@ input[type=submit]:hover {
   border-radius: 5px;
   padding: 50px;
   text-align: center;
+}
+
+.left {
+  position: absolute;
+  top: 30%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+}
+
+.prevf{
+  font-family: "Courier New";
+  font-weight: 900;
+  color: white;
 }
