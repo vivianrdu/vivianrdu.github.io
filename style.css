@@ -92,13 +92,11 @@ img.preview{
     margin-right: 6px
 }
 
-<<<<<<< HEAD
 .iframe-wrap {
     text-align: center;
     width: 100%;
     vertical-align: middle;
     height: 100%;
-=======
 
 
 input[type=text], select, textarea {
@@ -133,7 +131,6 @@ input[type=submit]:hover {
   border-radius: 5px;
   padding: 50px;
   text-align: center;
->>>>>>> a4414230183ead66813ccba891ac58ce83e1845b
 }
 
 .left {
@@ -146,9 +143,6 @@ input[type=submit]:hover {
 .prevf{
   font-family: "Courier New";
   font-weight: 900;
-<<<<<<< HEAD
   margin-right: 50px;    
-=======
->>>>>>> a4414230183ead66813ccba891ac58ce83e1845b
   color: white;
 }
