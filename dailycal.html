@@ -25,11 +25,26 @@
     </header>
     <body>
         <div class="container">
-            <p style="width: calc(100vw-450px); flex: 50%;">
+            <h1>The Daily Californian</h1>
             
-            </p> 
+            <p><br>
+            The Daily Californian is an independent, student-run newspaper featuring news based in Berkeley. I was a part of the design team as an illustrator. <br><br>
                 
-        </div> 
+            Some of my works are featured below.<br><br>
+            </p>
+            
+            <script>
+                var iframe= document.getElementById("iframe");
+                var div= document.getElementtId("content");
+                div.innerHTML = iframe.contentWindow.document.getElementtById("KnowDivName").innerHTML;
+            </script>
+            
+            <div id="content"></div>
+            <iframe id="iframe" style= "display:hidden" src="dailycalarticles/opde1.html">
+            </iframe>
+            
+            
+        </div>
     </body>
     
 </html>
