@@ -78,11 +78,16 @@ p.intro {
     text-align: center;
 }
 
+p.small {
+    font-size: 12px;
+    text-align: center;
+}
+
 header {
     width: 100vw; 
     display: flex; 
     padding: 50px;
-    align-items: center;
+    background-color:white;
 }
 
 header h1{
@@ -121,4 +126,13 @@ img.preview{
     width: 100%;
     vertical-align: middle;
     height: 100%;
+}
+
+footer {
+    width: 100vw; 
+    display: block;
+    position:fixed;
+    bottom: 0;
+    text-align: center;
+    background-color:white;
 }
