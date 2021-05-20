@@ -20,7 +20,6 @@ header {
     width: 100vw; 
     display: flex; 
     padding: 50px;
-    padding-bottom: 20px;
     background-color:white;
 }
 
@@ -31,13 +30,14 @@ header h1{
     font-size: 32px;
     flex:0;
 }
-header h1.first{
+header h1.first {
     margin-left:0;
 }
 
-header .spacer{
+header .spacer {
     width: auto;
     flex: 50%;
+    flex-wrap: wrap;
 }
 
 header img.icon{
@@ -58,9 +58,6 @@ a:hover img:last-child {
 
 a:hover img:first-child {
     display: none;  
-}
-
-.socials{
 }
 
 .container {
@@ -87,10 +84,18 @@ a:hover img:first-child {
     flex-direction:column;
     flex-wrap: wrap;
     justify-content: space-between;
-    position:relative
+    position:relative;
+    background-color: white;
 }
 
 h1 {
+    font-size: 32px;   
+}
+
+h1.heading {
+    width: 100vw;
+    margin-top: 20px;
+    text-align: center;
     font-size: 32px;   
 }
     
@@ -139,6 +144,11 @@ p.intro {
 p.small {
     font-size: 12px;
     text-align: center;
+}
+
+p.summary {
+    margin-left: 20px;
+    font-size: 22px;
 }
 
 img.preview{
