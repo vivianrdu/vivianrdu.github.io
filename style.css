@@ -79,11 +79,9 @@ a:hover img:first-child {
 .panel {
     width: 33vw;
     padding: 50px;    
-    display: inline-flex;
-    align-items: inline-flex;
+    display: inline-block;
     flex-direction:column;
     flex-wrap: wrap;
-    justify-content: space-between;
     position:relative;
     background-color: white;
 }
