@@ -29,11 +29,12 @@
     <body>
         <div class="container">
             <p>
-            Currently, I am a part of UC Berkeley's Undergraduate Research Apprentice Program (URAP) conducting
+            Since Fall 2020, I have been a part of UC Berkeley's Undergraduate Research Apprentice Program (URAP), conducting
             research under Professor Eve Sweester in the Linguistics Department. <br><br>
 
             Additionally, I am a part of the Metaphor Group at UC Berkeley conducting cognitive linguistics
-            research. Currently analyzing American English discourse about COVID-19, the pandemic and treatment/containment efforts. 
+            research. We are currently analyzing American English discourse about COVID-19, the pandemic and treatment/containment efforts.
+            A PDF version of the RaAM Conference presentation can be found <a class= "linked" href="raam2021.pdf" target="_blank" rel="noopener noreferrer">here</a>. 
             </p>
         </div>
         <footer>
@@ -41,5 +42,16 @@
             Coded from scratch! Work in progress.
             </p>
         <footer>
-    </body>      
+    </body>
+    <script>
+        x = $('#div-that-increase-height').height()+20; // +20 gives space between div and footer
+        y = $(window).height();    
+        if (x+100<=y){ // 100 is the height of your footer
+          $('#footer').css('top', y-100+'px');// again 100 is the height of your footer
+          $('#footer').css('display', 'block');
+        }else{
+          $('#footer').css('top', x+'px');
+          $('#footer').css('display', 'block');
+        }
+    </script>      
 </html>
