@@ -69,9 +69,9 @@ a:hover img:first-child {
 }
 
 .icons {
-    display: block;
+    display: flex;
+    flex-direction: row; 
     position: right;
-    align-items:flex-end;
 }
 
 .panel {
@@ -83,6 +83,9 @@ a:hover img:first-child {
 
 @media screen and (max-width:990px) {
     .container { flex-wrap: wrap;  }
+    .icons { flex-wrap:wrap; position:right;}
+    .icon { flex-basis: 100%;}
+    header .spacer { flex:0%;}
     .panel { flex-basis: 100%; }
   }
 
