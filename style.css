@@ -64,10 +64,8 @@ a:hover img:first-child {
     width: 100vw;
     padding: 50px;    
     display: flex;
-    align-items: flex-start;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    position:relative
+    flex: 2;
+    align-items: stretch;
 }
 
 .icons {
@@ -78,13 +76,15 @@ a:hover img:first-child {
 
 .panel {
     width: 33vw;
-    padding: 50px;    
-    display: inline-block;
-    flex-direction:column;
-    flex-wrap: wrap;
-    position:relative;
+    padding: 50px;
+    flex: 0.33;    
     background-color: white;
 }
+
+@media screen and (max-width:990px) {
+    .container { flex-wrap: wrap;  }
+    .panel { flex-basis: 100%; }
+  }
 
 h1 {
     font-size: 32px;   
@@ -163,11 +163,10 @@ img.preview{
     height: 100%;
 }
 
-footer {
-    width: 100vw; 
+#footer {
+    width: 100%;
     display: block;
-    position:fixed;
+    position:absolute;
     bottom: 0;
     text-align: center;
-    background-color:white;
 }
