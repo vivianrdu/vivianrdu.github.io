@@ -68,11 +68,6 @@ a:hover img:first-child {
     align-items: stretch;
 }
 
-.icons {
-    display: flex;
-    flex-direction: row; 
-}
-
 .cover {
     background: url(cover.png);
     background-repeat: no-repeat;
@@ -174,8 +169,8 @@ img.preview{
 
 @media screen and (max-width:990px) {
     .container { flex-wrap: wrap;  }
-    .icons { flex-wrap:wrap; position:right;}
-    .icon { flex-basis: 100%;}
-    header .spacer { flex:0%;}
+    header { display: block; }
+    .spacer {padding-bottom: 50px;}
+    .icon { display:inline-block; }
     .panel { flex-basis: 100%; }
   }
