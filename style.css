@@ -74,6 +74,12 @@ a:hover img:first-child {
     position: right;
 }
 
+.cover {
+    width: 400px;
+    height: 400px;
+    align-self: center;
+}
+
 .panel {
     width: 33vw;
     padding: 50px;
