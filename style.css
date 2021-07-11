@@ -71,13 +71,10 @@ a:hover img:first-child {
 .icons {
     display: flex;
     flex-direction: row; 
-    position: right;
 }
 
 .cover {
-    width: 400px;
-    height: 400px;
-    align-self: center;
+    background: url(cover.png) no-repeat center center;
 }
 
 .panel {
