@@ -68,8 +68,34 @@ a:hover img:first-child {
     align-items: stretch;
 }
 
+.container-1 {
+    width: 100vw;
+    padding: 50px;    
+    display: flex;
+    flex: 1;
+}
+
+.container-2 {
+    width: 50%;
+    padding-bottom: 50px; 
+    display: flex;
+}
+
+.container-2 img {
+    max-width: 100%;
+    max-height: 100%;
+    align-self:auto;
+}
+
 .cover {
     background: url(vector_animation.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.background {
+    background: url(dreamy.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -144,12 +170,22 @@ p.summary {
     font-size: 22px;
 }
 
+p.summary-1 {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 22px;
+}
+
 img.preview{
     height: 20em; 
     width: 27em;
     margin: 0px;
     flex:0;
     margin-right: 6px
+}
+
+.gallery {
+    width: 50%;
 }
 
 .iframe-wrap {
@@ -169,6 +205,8 @@ img.preview{
 
 @media screen and (max-width:990px) {
     .container { flex-wrap: wrap;  }
+    .container-1 { flex-wrap: wrap;} 
+    .container-2 { flex-wrap: wrap;  width: 100%;} 
     header { display: block; }
     .spacer {padding-bottom: 50px;}
     .icon { display:inline-block; }
