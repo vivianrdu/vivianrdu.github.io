@@ -27,7 +27,7 @@
     </header>
     <body>
         <div class="container">
-            <p style="width: calc(100vw-450px); flex: 50%;">
+            <p style="width: 100vm; flex: 50%;">
             Hi! I'm Vivian.<br>
             <br>
             I am a current undergraduate at UC Berkeley, majoring in Data Science and Linguistics with a concentration in Cognition. <br>
@@ -49,15 +49,5 @@
             </p>
         <footer>
     </body>
-    <script>
-        x = $('#div-that-increase-height').height()+20; // +20 gives space between div and footer
-        y = $(window).height();    
-        if (x+100<=y){ // 100 is the height of your footer
-          $('#footer').css('top', y-100+'px');// again 100 is the height of your footer
-          $('#footer').css('display', 'block');
-        }else{
-          $('#footer').css('top', x+'px');
-          $('#footer').css('display', 'block');
-        }
-    </script>
+    
 </html>
