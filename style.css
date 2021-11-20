@@ -90,31 +90,19 @@ a:hover img:first-child {
 @media (min-width: 800px) {    
     .about-image img {
         display: inline-flex; 
+        padding-left: 30px;
         width: 400px;
-        padding-left: 50px;
-        padding-right: 10px;
         position: relative;
         flex: 0;
     }
 }
 
-@media (min-width: 500px) {
-    .about-image img{
-        width: 500px;
-        display: inline-flex; 
-        text-align: center;
-        padding-top: 50px;
-        position: relative;
-        flex: 0;
-    }
-}
-
-@media (max-width: 500px) {
+@media (max-width: 900px) {
     .about-image img{
         width: 400px;
         display: block; 
-        text-align: center;
         padding-top: 50px;
+        text-align: center;
         position: relative;
         flex: 0;
     }
