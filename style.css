@@ -293,9 +293,7 @@ img.preview{
     header { display: block; }
     .spacer {padding-bottom: 50px;}
     .icon { display:inline-block; }
-    #footer {
-        position:relative;
-    }
+
 }
 
 
