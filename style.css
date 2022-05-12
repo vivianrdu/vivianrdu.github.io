@@ -109,13 +109,6 @@ a:hover img:first-child {
     background-size: contain;
 }
 
-.icons {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
 h1 {
     font-size: 32px;   
 }
@@ -228,6 +221,13 @@ img.preview{
     background-color: transparent;
 }
 
+#icons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
 #page-container {
     position: relative;
     min-height: 100vh;
@@ -268,7 +268,7 @@ img.preview{
     header { display: block; }
     .spacer {padding-bottom: 50px;}
     .icon { display:inline-block; }
-    .icons {
+    #icons {
         justify-content: space-evenly;
     }
     .navbar {
@@ -282,6 +282,8 @@ img.preview{
         width: 100%;
         display: block; 
         padding-top: 50px;
+        padding-left: 0%;
+        padding-right: 0%;
         position: relative;
         flex: 0;
     }
