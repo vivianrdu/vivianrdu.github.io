@@ -116,8 +116,6 @@ a:hover img:first-child {
     justify-content: flex-end;
 }
 
-
-
 h1 {
     font-size: 32px;   
 }
@@ -212,12 +210,28 @@ img.preview{
     height: 100%;
 }
 
+.dark-mode {
+    background-color: rgb(49, 37, 47);
+    color: white;
+}
+.dark-mode .panel {
+    background: rgba(0, 0, 0, 0.7);
+}
+.dark-mode a {
+    color: white;
+}
+.button {
+    border: none;   
+    background-color: transparent;
+}
+
 #footer {
     width: 100%;
     display: block;
     position:absolute;
     bottom: 0;
     text-align: center;
+    height: 2.5rem; 
 }
 
 @media (min-width: 800px) {    
@@ -250,7 +264,7 @@ img.preview{
         justify-content: space-evenly;
     }
     .navbar {
-        justify-content: space-evenly;
+        justify-content: center;
     }
     .panel { flex-basis: 100%; width: 100%;}
 }
