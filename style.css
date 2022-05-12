@@ -228,6 +228,11 @@ img.preview{
     background-color: transparent;
 }
 
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+
 #footer {
     width: 100%;
     display: block;
@@ -286,6 +291,9 @@ img.preview{
     header { display: block; }
     .spacer {padding-bottom: 50px;}
     .icon { display:inline-block; }
+    #footer {
+        position:relative;
+    }
 }
 
 
