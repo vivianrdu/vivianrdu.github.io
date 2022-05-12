@@ -214,6 +214,9 @@ img.preview{
     background-color: rgb(49, 37, 47);
     color: white;
 }
+.dark-mode header{
+    background-color: rgba(0, 0, 0, 0.7);
+}
 .dark-mode .panel {
     background: rgba(0, 0, 0, 0.7);
 }
