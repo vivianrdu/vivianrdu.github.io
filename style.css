@@ -505,6 +505,7 @@ img.preview{
         flex: 0;
     }
     .container { flex-wrap: wrap; width: 100%; }
+    .container p {font-size: 24px; }
     .container-1 { flex-wrap: wrap;} 
     .container-2 { flex-wrap: wrap;  width: 100%;} 
     header { display: block; }
@@ -530,6 +531,7 @@ img.preview{
         flex: 0;
     }
     .container { flex-wrap: wrap; width: 100%; }
+    .container p {font-size: 18px; }
     .container-1 { flex-wrap: wrap;} 
     .container-2 { flex-wrap: wrap;  width: 100%;} 
     header { display: block; }
